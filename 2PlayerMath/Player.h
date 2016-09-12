@@ -10,6 +10,10 @@
 
 @interface Player : NSObject
 
+@property (nonatomic) NSInteger playerLives;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, assign) BOOL turn;
 
+- (instancetype)initWithName:(NSString*)name;
 
 @end

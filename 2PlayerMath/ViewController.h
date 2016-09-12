@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Player.h"
+#import "GameModel.h"
 
 @interface ViewController : UIViewController
+
+
+
+
 
 
 @end

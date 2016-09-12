@@ -10,4 +10,16 @@
 
 @implementation Player
 
+- (instancetype)initWithName:(NSString*)name
+{
+    self = [super init];
+    if (self) {
+        _playerLives = 3;
+        _name = name;
+        
+    }
+    return self;
+}
+
+
 @end
