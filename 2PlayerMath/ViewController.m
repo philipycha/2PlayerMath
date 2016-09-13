@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) GameModel *gameModel;
 
+//test test
+
 @property (weak, nonatomic) IBOutlet UILabel *player1Score;
 @property (weak, nonatomic) IBOutlet UILabel *player2Score;
 @property (weak, nonatomic) IBOutlet UILabel *currentQuestion;
