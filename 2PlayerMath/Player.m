@@ -21,5 +21,13 @@
     return self;
 }
 
+-(NSInteger)loseLife{
+    
+    self.playerLives -= 1;
+    
+    return self.playerLives;
+    
+}
+
 
 @end

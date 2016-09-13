@@ -16,4 +16,7 @@
 
 - (instancetype)initWithName:(NSString*)name;
 
+
+-(NSInteger)loseLife;
+
 @end

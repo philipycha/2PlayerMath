@@ -17,10 +17,11 @@
 @property (nonatomic, strong) Player *player2;
 
 @property (nonatomic, strong) NSString* answer;
-@property (nonatomic, strong) NSString* question;
+@property (nonatomic, strong) NSString* correctAnswer;
 
 @property (nonatomic) NSString *displayQuestion;
 
-- (void) generateQuestion;
+- (NSString*)generateQuestion;
+- (BOOL) isCorrectAnswer;
 
 @end
